@@ -1,9 +1,21 @@
+body{
+  font-family: Helvetica;
+  font-size: 18px;
+}
+h1{
+  font-size: 1rem;
+}
+.logo img{
+  height: 1.3rem;
+  width: 1.5rem;
+  margin: auto 1rem auto 0.5rem;;
+}
 .main{
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 40rem;
-  margin: 7rem 0rem 0rem 0rem;
+  margin: 4rem 0rem 0rem 0rem;
 }
 .jumbotron{
   color: white;
@@ -17,8 +29,9 @@
 .col-2{
   margin: 2rem auto 2rem auto;
   color: white;
-  background-color: red;
+  background-color: firebrick;
   height: 3rem;
+  margin-top: 0rem;
 }
 a{
   color: white;
@@ -30,8 +43,26 @@ a:hover{
   font-size: 2rem;
 }
 .col-4 h1{
-  font-size: 1.5rem;
+  color: white;
+  background-color: black;
+  width: 10rem;
 }
 img{
-  height: 13rem;
+  width: 10rem;
+  height: 10rem;
+}
+.col-6 h4{
+  color: white;
+  background-color: black;
+}
+.footer{
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  height: 5rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
 }
